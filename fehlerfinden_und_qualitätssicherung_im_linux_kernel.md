@@ -163,6 +163,13 @@ $ make kselftest
 -   `CONFIG_UBSAN`
 -   `CONFIG_KASAN`
 
+# Dateisysteme
+
+## XFS
+
+-   `git clone git://git.kernel.org/pub/scm/fs/xfs/xfstests-dev.git`
+-   https://stackoverflow.com/questions/21565865/filesystem-test-suites
+
 # Ausblick
 
 ## kselftest

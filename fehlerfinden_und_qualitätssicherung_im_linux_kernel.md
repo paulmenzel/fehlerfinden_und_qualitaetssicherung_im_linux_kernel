@@ -26,6 +26,13 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
 -   Mehr Motivation: Vortrag [*Hilf mit, damit Linux nur besser und nie schlechter wird* von Thorsten Leemhuis, Sonntag 10 Uhr](https://chemnitzer.linux-tage.de/2018/programm/beitrag/253)
 -   Hohe Änderungsraten und Testlabore erst im Kommen
 
+## Arbeit mit Entwicklern
+
+-   Linux-Kernel in Distributionen meist nicht aktuell
+-   Linux-Kernel-Entwicklern bevorzugen Meldungen bezüglich der aktuellen Version
+    -   Zweig *master* in Linus’ Git-Depot
+    -   Entsprechender Entwicklungszweig
+
 ## Neuer Linux-Kernel
 
 ### Pakete

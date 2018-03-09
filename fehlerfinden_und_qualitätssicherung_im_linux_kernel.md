@@ -190,12 +190,16 @@ $ make kselftest
 
 ## kselftest
 
--   Mehr Tests
+-   Hinzufügen von mehr Tests aus mehr Subsystemen
 
 ## Fazit
 
 1.  Jeder kann mitmachen.
-1.  Distributionen sollten Programme paketieren und ausliefern.
+1.  Distributionen sollten Programme zur einfachen Installation paketieren und ausliefern.
+1.  Paketarchive mit „Linux-Debug-Kernel“ zur einfachen Installation.
+1.  Hersteller in die Pflicht nehmen, ihre Produkte ordentlich zu testen.
+1.  Entwicklung von Testgeräten und Entwicklern zur Verfügung stellen.
 1.  Nicht nur Linux-Kernel auch andere Ebenen und Anwendungen mit Tests
+1.  [aktueller Artikel zu Cairo](https://people.gnome.org/~federico/blog/helping-cairo.html)
 
 # Fragen

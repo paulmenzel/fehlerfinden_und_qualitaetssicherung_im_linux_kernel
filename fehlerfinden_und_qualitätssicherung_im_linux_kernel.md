@@ -19,6 +19,35 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
 
 ## Problem
 
+-   Hersteller/OEMs entwickeln nur für Microsoft Windows.
+-   Wenige Ausnahmen: Google Chromebooks und Apple
+-   Anderen Anbieter passen nur an
+
+-   Mehr Motivation: Vortrag [*Hilf mit, damit Linux nur besser und nie schlechter wird* von Thorsten Leemhuis, Sonntag 10 Uhr](https://chemnitzer.linux-tage.de/2018/programm/beitrag/253)
+-   Hohe Änderungsraten und Testlabore erst im Kommen
+
+## Neuer Linux-Kernel
+
+### Pakete
+
+-   Ubuntu: http://kernel.ubuntu.com/~kernel-ppa/mainline/
+-   Fedora: https://fedoraproject.org/wiki/Kernel_Vanilla_Repositories
+-   Debian: manchmal in *experimental*: https://packages.debian.org/linux-image-4.16
+-   andere Distributionen ähnlich
+
+### Selber bauen (Debian)
+
+```
+$ git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+$ cd linux
+$ cp -a /boot/config-4.15.0-1-amd64 .config
+$ make help
+$ make olddefconfig
+$ make localmodconfig
+$ make bindeb-pkg -j`nproc`
+$ sudo dpkg -i ../linux*.deb
+```
+
 # Ausblick
 
 ## kselftest

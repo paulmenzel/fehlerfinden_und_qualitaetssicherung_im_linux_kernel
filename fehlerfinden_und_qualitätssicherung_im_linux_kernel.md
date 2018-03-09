@@ -61,6 +61,10 @@ $ sudo dpkg -i ../linux*.deb
 
 Bautests, Funktionen, ACPI, Energiemanagement (Power Management), Grafik, Audio, Netzwerk, Dateisystem, Geschwindigkeit, …
 
+## Bautests
+
+Mehr oder weniger gelöst: nur sehr selten Fehler beim Bauen. Danke Intel!
+
 # Ausblick
 
 ## kselftest

@@ -155,6 +155,13 @@ $ make kselftest
 -   https://cgit.freedesktop.org/drm/igt-gpu-tools/
 -   https://piglit.freedesktop.org/
 
+# Sanitizers
+
+## UndefinedBehavior/AddressSanitizer
+
+-   `CONFIG_UBSAN`
+-   `CONFIG_KASAN`
+
 # Ausblick
 
 ## kselftest

@@ -82,6 +82,20 @@ Mehr oder weniger gelöst: nur sehr selten Fehler beim Bauen. Danke Intel!
 > System analysis tool source code and binary, and a blog which gives updates
 > on actual changes being made to the kernel using the tool
 
+## Praxis
+
+-   Füge `initcall_debug` zu Linux-Kommandozeile hinzu
+
+```
+$ sudo vim /etc/default/grub
+$ sudo update-grub
+$ systemctl restart
+```
+
+-   Installiere `systemd-bootchart` mit `sudo apt install systemd-bootchart`
+-   `man systemd-bootchart`
+-   Füge `init=/lib/systemd/systemd-bootchart` zu Linux-Kernel-Kommandozeile hinzu
+
 # Ausblick
 
 ## kselftest

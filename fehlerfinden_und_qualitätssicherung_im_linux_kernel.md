@@ -150,6 +150,8 @@ $ make kselftest
 
 -   Komplex, viele Ebenen
 -   Framebuffer, DRM, Mesa, GPU-Dekodieren/-Kodieren
+-   [Chamelium Board](https://www.chromium.org/chromium-os/testing/chamelium)
+-   für Audio: [Chamelium Audio Board](https://www.chromium.org/chromium-os/testing/chamelium-audio-board)
 
 ## Programme 
 

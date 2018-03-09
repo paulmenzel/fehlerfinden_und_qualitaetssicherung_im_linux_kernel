@@ -45,7 +45,9 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
 ## Selber bauen (Debian)
 
 ```
-$ git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+$ git clone \
+https://git.kernel.org/pub/scm/linux/kernel/git/
+torvalds/linux.git
 $ cd linux
 $ cp -a /boot/config-4.15.0-1-amd64 .config
 $ make help

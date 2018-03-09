@@ -25,6 +25,7 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
 
 -   Mehr Motivation: Vortrag [*Hilf mit, damit Linux nur besser und nie schlechter wird* von Thorsten Leemhuis, Sonntag 10 Uhr](https://chemnitzer.linux-tage.de/2018/programm/beitrag/253)
 -   Hohe Änderungsraten und Testlabore erst im Kommen
+-   https://intel-gfx-ci.01.org/
 
 ## Arbeit mit Entwicklern
 
@@ -140,6 +141,20 @@ $ make kselftest
 
 -   Datei `MAINTAINERS`
 
+-   https://01.org/linuxgraphics/documentation/how-report-bugs
+
+# Grafik
+
+## Grafik
+
+-   Komplex, viele Ebenen
+-   Framebuffer, DRM, Mesa, GPU-Dekodieren/-Kodieren
+
+## Programme 
+
+-   https://cgit.freedesktop.org/drm/igt-gpu-tools/
+-   https://piglit.freedesktop.org/
+
 # Ausblick
 
 ## kselftest
@@ -150,5 +165,6 @@ $ make kselftest
 
 1.  Jeder kann mitmachen.
 1.  Distributionen sollten Programme paketieren und ausliefern.
+1.  Nicht nur Linux-Kernel auch andere Ebenen und Anwendungen mit Tests
 
 # Fragen

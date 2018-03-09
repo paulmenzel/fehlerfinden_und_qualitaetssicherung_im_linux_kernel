@@ -181,6 +181,11 @@ $ make kselftest
 -   SATA Link Power Management: [Improving Linux laptop battery life: Testers Wanted](https://hansdegoede.livejournal.com/18412.html)
 -   Panel Self Refresh: [Improving Linux battery life, enabling PSR by default, testers wanted](https://hansdegoede.livejournal.com/18653.html)
 
+## Bluetooth
+
+-   kein externes Testgerät bekannt
+-   möglichst mit vielen Geräten testen (Hotel, …); Sicherheit?
+
 # Ausblick
 
 ## kselftest

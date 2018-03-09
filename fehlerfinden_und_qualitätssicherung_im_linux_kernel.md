@@ -96,6 +96,27 @@ $ systemctl restart
 -   `man systemd-bootchart`
 -   Füge `init=/lib/systemd/systemd-bootchart` zu Linux-Kernel-Kommandozeile hinzu
 
+## systemd-bootchart
+
+-   SVG-Datei unter `/run/log/`
+-   Übersicht, welche Linux-Kernel-Funktionen, wie viel Zeit
+
+## sleepgraph.py/bootgraph.py
+
+-   Kopie von letzter Veröffentlichung in Linux-Kernel-Quellen
+-   Nutze Git-Depot direkt:
+
+```
+$ git clone https://github.com/01org/pm-graph
+$ cd pm-graph
+$ sudo ./sleepgraph.py -c config/suspend-callgraph.cfg
+```
+
+-   Standardmäßig eigenständiges Aufwachen nach 15 Sekunden
+-   Tiefe über Parameter `maxdepth` erhöhen
+
+# Beispiel mit Dell XPS 13 9370
+
 # Ausblick
 
 ## kselftest

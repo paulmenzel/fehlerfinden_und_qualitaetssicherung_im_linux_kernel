@@ -57,6 +57,10 @@ $ make bindeb-pkg -j`nproc`
 $ sudo dpkg -i ../linux*.deb
 ```
 
+## Problemstellen
+
+Bautests, Funktionen, ACPI, Energiemanagement (Power Management), Grafik, Audio, Netzwerk, Dateisystem, Geschwindigkeit, …
+
 # Ausblick
 
 ## kselftest

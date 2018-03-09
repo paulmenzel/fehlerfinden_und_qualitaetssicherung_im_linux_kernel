@@ -117,6 +117,27 @@ $ sudo ./sleepgraph.py -c config/suspend-callgraph.cfg
 
 # Beispiel mit Dell XPS 13 9370
 
+## kselftest
+
+-   https://www.kernel.org/doc/Documentation/kselftest.txt
+-   https://kselftest.wiki.kernel.org/
+
+> The kernel contains a set of "self tests" under the tools/testing/selftests/
+> directory. These are intended to be small tests to exercise individual code
+> paths in the kernel. Tests are intended to be run after building, installing
+> and booting a kernel.
+
+```
+$ make kselftest
+```
+
+# Einschub: Fehlerberichte
+
+## Einschub: Fehlerberichte
+
+-   LKML: Linux Kernel Mailing List
+-   https://bugzilla.kernel.org/
+
 # Ausblick
 
 ## kselftest
@@ -126,5 +147,6 @@ $ sudo ./sleepgraph.py -c config/suspend-callgraph.cfg
 ## Fazit
 
 1.  Jeder kann mitmachen.
+1.  Distributionen sollten Programme paketieren und ausliefern.
 
 # Fragen

@@ -65,6 +65,23 @@ Bautests, Funktionen, ACPI, Energiemanagement (Power Management), Grafik, Audio,
 
 Mehr oder weniger gelöst: nur sehr selten Fehler beim Bauen. Danke Intel!
 
+## Geschwindigkeit
+
+-  „Pet peeve“ (vergleiche mit Google Chromebooks, Apple-, MS-Windows-Geräte)
+
+### Ziel
+
+-   Schneller Start des Linux-Kernels
+-   Schnelles Einschlafen und Aufwachen (ACPI S3)
+
+### sleepgraph.py/bootgraph.py
+
+-   https://01.org/suspendresume
+-   https://github.com/01org/pm-graph
+
+> System analysis tool source code and binary, and a blog which gives updates
+> on actual changes being made to the kernel using the tool
+
 # Ausblick
 
 ## kselftest

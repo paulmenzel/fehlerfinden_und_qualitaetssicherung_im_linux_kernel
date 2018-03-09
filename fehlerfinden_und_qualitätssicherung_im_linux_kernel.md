@@ -64,7 +64,8 @@ Bautests, Funktionen, ACPI, Energiemanagement (Power Management), Grafik, Audio,
 
 ## Bautests
 
-Mehr oder weniger gelöst: nur sehr selten Fehler beim Bauen. Danke Intel!
+-   Mehr oder weniger gelöst: nur sehr selten Fehler beim Bauen. Danke Intel!
+-   Derzeit Tests mit Clang erwünscht und noch nicht gut abgedeckt
 
 ## Geschwindigkeit
 

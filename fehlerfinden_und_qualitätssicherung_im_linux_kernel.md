@@ -33,16 +33,16 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
     -   Zweig *master* in Linus’ Git-Depot
     -   Entsprechender Entwicklungszweig
 
-## Neuer Linux-Kernel
+# Neuer Linux-Kernel
 
-### Pakete
+## Pakete
 
 -   Ubuntu: http://kernel.ubuntu.com/~kernel-ppa/mainline/
 -   Fedora: https://fedoraproject.org/wiki/Kernel_Vanilla_Repositories
 -   Debian: manchmal in *experimental*: https://packages.debian.org/linux-image-4.16
 -   andere Distributionen ähnlich
 
-### Selber bauen (Debian)
+## Selber bauen (Debian)
 
 ```
 $ git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git

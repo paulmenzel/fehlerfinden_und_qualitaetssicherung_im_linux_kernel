@@ -170,6 +170,15 @@ $ make kselftest
 -   `git clone git://git.kernel.org/pub/scm/fs/xfs/xfstests-dev.git`
 -   https://stackoverflow.com/questions/21565865/filesystem-test-suites
 
+## Energieverbrauch
+
+-   PowerTOP
+
+## SATA LPM/PSR
+
+-   SATA Link Power Management: [Improving Linux laptop battery life: Testers Wanted](https://hansdegoede.livejournal.com/18412.html)
+-   Panel Self Refresh: [Improving Linux battery life, enabling PSR by default, testers wanted](https://hansdegoede.livejournal.com/18653.html)
+
 # Ausblick
 
 ## kselftest

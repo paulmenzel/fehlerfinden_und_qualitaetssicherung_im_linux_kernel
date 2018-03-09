@@ -138,6 +138,8 @@ $ make kselftest
 -   LKML: Linux Kernel Mailing List
 -   https://bugzilla.kernel.org/
 
+-   Datei `MAINTAINERS`
+
 # Ausblick
 
 ## kselftest

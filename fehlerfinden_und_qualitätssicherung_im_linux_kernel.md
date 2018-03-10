@@ -179,6 +179,15 @@ $ ninja test
 ## Grafik: weitere Testsammlungen
 
 -   https://piglit.freedesktop.org/
+
+```
+$ sudo apt install piglit
+$ piglit run quick results/quick
+[39129/39129] skip: 3169, pass: 35860, warn: 4, fail: 95, crash: 1          
+Thank you for running Piglit!                                     
+Results have been written to /home/joey/results/quick
+```
+
 -   GPU-Testsammlung dEQP (drawElements Quality Program): https://github.com/KhronosGroup/VK-GL-CTS
 -   Proprietär: [GFXBench](https://gfxbench.com/)
 

@@ -166,8 +166,13 @@ $ make kselftest
 
 ## UndefinedBehavior/AddressSanitizer
 
--   `CONFIG_UBSAN`
--   `CONFIG_KASAN`
+### `CONFIG_UBSAN`
+
+-   [UBSAN: Undefined behaviour in drivers/net/wireless/ath/ath10k/mac.c:3092:53: signed integer overflow](https://www.spinics.net/lists/linux-wireless/msg169417.html)
+
+### `CONFIG_KASAN`
+
+-   [Re: BUG: KASAN: use-after-free in xhci\_trb\_virt\_to\_dma.part.24+0x1c/0x80](https://www.spinics.net/lists/linux-usb/msg165243.html)
 
 # Dateisysteme
 

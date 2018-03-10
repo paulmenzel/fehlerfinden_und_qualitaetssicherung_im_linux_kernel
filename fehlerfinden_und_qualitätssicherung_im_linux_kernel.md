@@ -248,10 +248,10 @@ $ xdg-open summary/quick/index.html &
 
 1.  Jeder kann mitmachen.
 1.  Distributionen sollten Programme zur einfachen Installation paketieren und ausliefern.
-1.  Paketarchive mit „Linux-Debug-Kernel“ zur einfachen Installation.
+1.  Anbieten von Paketarchiven mit „Linux-Debug-Kernel“ zur einfachen Installation
 1.  Live-Abbilder/Images zur einfachen Nutzung
-1.  Hersteller in die Pflicht nehmen, ihre Produkte ordentlich zu testen.
-1.  Entwicklung von Testgeräten und Entwicklern zur Verfügung stellen.
+1.  Hersteller in die Pflicht nehmen, ihre Produkte ordentlich zu testen
+1.  Entwicklung von Testgeräten und diese Entwicklern zur Verfügung stellen
 
 ## Noch mehr Tests
 

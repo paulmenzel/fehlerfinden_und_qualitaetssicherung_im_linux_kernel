@@ -195,13 +195,23 @@ $ make kselftest
 
 -   Hinzufügen von mehr Tests aus mehr Subsystemen
 
+## Datenbank und Hochladen
+
+-   Übergreifende Datenbank mit Ergebnissen nicht bekannt
+-   Modell? → Seite mit Verweisen zu einzelnen Subsystemen (Meta-Suchmaschine)
+-   Riesige Datenmengen
+
 ## Fazit
 
 1.  Jeder kann mitmachen.
 1.  Distributionen sollten Programme zur einfachen Installation paketieren und ausliefern.
 1.  Paketarchive mit „Linux-Debug-Kernel“ zur einfachen Installation.
+1.  Live-Abbilder/Images zur einfachen Nutzung
 1.  Hersteller in die Pflicht nehmen, ihre Produkte ordentlich zu testen.
 1.  Entwicklung von Testgeräten und Entwicklern zur Verfügung stellen.
+
+## Noch mehr Tests
+
 1.  Nicht nur Linux-Kernel auch andere Ebenen und Anwendungen mit Tests
 1.  [aktueller Artikel zu Cairo](https://people.gnome.org/~federico/blog/helping-cairo.html)
 

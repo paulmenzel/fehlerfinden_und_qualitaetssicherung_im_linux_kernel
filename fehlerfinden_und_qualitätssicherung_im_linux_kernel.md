@@ -20,8 +20,9 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
 ## Problem
 
 -   Hersteller/OEMs entwickeln nur für Microsoft Windows.
--   Wenige Ausnahmen: Google Chromebooks und Apple
+-   Wenige Ausnahmen: Google Chromebooks und Apple, Purism(?), Dell
 -   Anderen Anbieter passen nur an
+-   Keine Ergebnisse für `git log --author=system76` und `git log --author=tuxedo`
 
 -   Mehr Motivation: Vortrag [*Hilf mit, damit Linux nur besser und nie schlechter wird* von Thorsten Leemhuis, Sonntag 10 Uhr](https://chemnitzer.linux-tage.de/2018/programm/beitrag/253)
 -   Hohe Änderungsraten und Testlabore erst im Kommen

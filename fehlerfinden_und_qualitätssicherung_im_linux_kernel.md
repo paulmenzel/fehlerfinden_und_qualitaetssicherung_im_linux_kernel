@@ -31,7 +31,7 @@ Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewande
 ## Arbeit mit Entwicklern
 
 -   Linux-Kernel in Distributionen meist nicht aktuell
--   Linux-Kernel-Entwicklern bevorzugen Meldungen bezüglich der aktuellen Version
+-   Linux-Kernel-Entwickler bevorzugen Meldungen bezüglich der aktuellen Version
     -   Zweig *master* in Linus’ Git-Depot
     -   Entsprechender Entwicklungszweig
 

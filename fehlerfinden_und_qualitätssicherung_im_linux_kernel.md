@@ -178,6 +178,7 @@ $ ninja test
 
 -   https://piglit.freedesktop.org/
 -   GPU-Testsammlung dEQP (drawElements Quality Program): https://github.com/KhronosGroup/VK-GL-CTS
+-   Proprietär: [GFXBench](https://gfxbench.com/)
 
 # Sanitizers
 

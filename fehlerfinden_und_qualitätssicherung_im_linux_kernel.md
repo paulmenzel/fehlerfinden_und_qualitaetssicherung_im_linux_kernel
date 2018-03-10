@@ -132,6 +132,7 @@ $ sudo ./sleepgraph.py -c config/suspend-callgraph.cfg
 > and booting a kernel.
 
 ```
+$ sudo apt install libcap-ng-dev libnuma-dev libfuse-dev
 $ make kselftest
 ```
 

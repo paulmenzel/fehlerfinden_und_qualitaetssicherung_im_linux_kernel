@@ -15,7 +15,7 @@
 
 Folien in Markdown mit [Pandoc](https://pandoc.org/) nach LaTeX-Beamer umgewandelt, verfügbar auf GitHub.
 
-<https://github.com/paulmenzel/fehlerfinden_und_qualitätssicherung_im_linux_kernel>
+<https://github.com/paulmenzel/fehlerfinden_und_qualitaetssicherung_im_linux_kernel>
 
 ## Problem
 

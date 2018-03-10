@@ -189,6 +189,12 @@ $ make kselftest
 -   kein externes Testgerät bekannt
 -   möglichst mit vielen Geräten testen (Hotel, …); Sicherheit?
 
+## Leistungsmessung (Benchmarking)
+
+-   Überschneidung mit Anwendungen (userspace)
+-   Beispiel: [Phoronix Test Suite](https://www.phoronix-test-suite.com/)
+-   https://openbenchmarking.org/
+
 # Ausblick
 
 ## kselftest

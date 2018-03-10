@@ -164,9 +164,11 @@ $ make kselftest
 -   früher intel-gpu-tools
 
 ```
-$ git clone https://anongit.freedesktop.org/git/drm/igt-gpu-tools.git
+$ git clone \
+https://anongit.freedesktop.org/git/drm/igt-gpu-tools.git
 $ cd igt-gpu-tools
-$ sudo apt build-dep intel-gpu-tools # Abhängigkeiten unter Debian
+$ # Installiere Abhängigkeiten (Debian) 
+$ sudo apt build-dep intel-gpu-tools
 $ mkdir build
 $ meson build
 $ cd build

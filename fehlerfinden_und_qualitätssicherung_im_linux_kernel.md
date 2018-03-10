@@ -156,9 +156,26 @@ $ make kselftest
 -   [Chamelium Board](https://www.chromium.org/chromium-os/testing/chamelium)
 -   für Audio: [Chamelium Audio Board](https://www.chromium.org/chromium-os/testing/chamelium-audio-board)
 
-## Grafik: Programme 
+# Grafik
+
+## Grafik: igt-gpu-tools
 
 -   https://cgit.freedesktop.org/drm/igt-gpu-tools/
+-   früher intel-gpu-tools
+
+```
+$ git clone https://anongit.freedesktop.org/git/drm/igt-gpu-tools.git
+$ cd igt-gpu-tools
+$ sudo apt build-dep intel-gpu-tools # Abhängigkeiten unter Debian
+$ mkdir build
+$ meson build
+$ cd build
+$ ninja
+$ ninja test
+```
+
+## Grafik: weitere Testsammlungen
+
 -   https://piglit.freedesktop.org/
 -   GPU-Testsammlung dEQP (drawElements Quality Program): https://github.com/KhronosGroup/VK-GL-CTS
 

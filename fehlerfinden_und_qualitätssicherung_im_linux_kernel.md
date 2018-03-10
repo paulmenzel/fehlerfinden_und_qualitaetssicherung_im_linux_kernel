@@ -178,7 +178,7 @@ $ make kselftest
 
 ## Energieverbrauch
 
--   PowerTOP
+-   [PowerTOP](https://01.org/powertop)
 
 ## SATA LPM/PSR
 
